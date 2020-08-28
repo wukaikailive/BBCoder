@@ -1,12 +1,16 @@
 {
   "name": "bbcoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "jest test/ && exit 0"
   },
   "author": "wukaikailive",
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wukaikailive/BBCoder"
+  },
   "babel": {
     "presets": [
       "@babel/preset-env"

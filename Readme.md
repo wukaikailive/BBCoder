@@ -12,6 +12,8 @@
 ## 使用
 
 ```
+import BBCoder from 'bbcoder'
+
 let bbCoder = new BBCoder('[u]abc[u]')
 bbCoder.parse()
 let html = bbCoder.html()
