@@ -31,13 +31,12 @@ let html = bbCoder.html()
 ```
 
 ```
-  let bbCoder = new BBCoder('[u]这[/u][i]',{
+let bbCoder = new BBCoder('[u]这[/u][i]',{
     ignoreUncloseTag: true
-  })
-  bbCoder.parse()
-  let html = bbCoder.html()
-  // <u>这</u>
-});
+})
+bbCoder.parse()
+let html = bbCoder.html()
+// <u>这</u>
 ```
 
 ## 新增标签
