@@ -19,7 +19,7 @@ function defaultVistor() {
       return `<blockquote><p>${results.join('')}</p></blockquote>`;
     },
     code(node, results) {
-      return `<pre>${results.join('')}</pre>`;
+      return `<pre${node.value?` class="language-${node.value}"`:""}>${results.join('')}</pre>`;
     },
     size(node, results) {
       return `<span style="font-size: ${node.value}px;">${results.join('')}</span>`;
